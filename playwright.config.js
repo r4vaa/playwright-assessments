@@ -10,10 +10,11 @@ module.exports = defineConfig({
   fullyParallel: true,
 
   use: {
+    headless: true, // FORCE HEADLESS
+    viewport: { width: 1280, height: 720 },
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: true
   },
 
   projects: [
