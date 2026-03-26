@@ -1,7 +1,9 @@
+const { OPENLIBRARY } = require('../../utils/constants');
+
 class OpenLibraryAPI {
     constructor(request) {
         this.request = request;
-        this.baseURL = 'https://openlibrary.org';
+        this.baseURL = OPENLIBRARY.BASE_URL;
     }
 
     async search(query) {
