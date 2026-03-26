@@ -31,9 +31,7 @@ jobs:
 
       # 5. Run tests
       - name: Run Playwright tests
-        run: |
-          npx playwright test --project=NASA --headed=false
-          npx playwright test --project=OpenLibrary --headed=false
+        run: npx playwright test --headed=false
 
       # 6. Upload report
       - name: Upload Playwright Report
