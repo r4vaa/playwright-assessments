@@ -20,6 +20,14 @@ Both suites share a common framework:
 
 ---
 
+## How to get started
+
+#### Git Clone
+
+```bash
+git https://github.com/r4vaa/playwright-assessments.git
+```
+
 ## ⚙️ Setup
 
 ```bash
@@ -42,12 +50,6 @@ Run specific project:
 ```bash
 npx playwright test --project=NASA
 npx playwright test --project=OpenLibrary
-```
-
-## Git Clone
-
-```bash
-git https://github.com/r4vaa/playwright-assessments.git
 ```
 
 ---
