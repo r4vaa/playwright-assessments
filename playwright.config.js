@@ -2,11 +2,11 @@
 const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
-  testDir: './',
-  timeout: 30 * 1000,
-  expect: {
-    timeout: 5000,
-  },
+  // testDir: './',
+  // timeout: 30 * 1000,
+  // expect: {
+  //   timeout: 5000,
+  // },
   fullyParallel: true,
 
   use: {
