@@ -44,10 +44,10 @@ npx playwright test --project=NASA
 npx playwright test --project=OpenLibrary
 ```
 
-Run stability check:
+## Git Clone
 
 ```bash
-npx playwright test --repeat-each=2
+git https://github.com/r4vaa/playwright-assessments.git
 ```
 
 ---
